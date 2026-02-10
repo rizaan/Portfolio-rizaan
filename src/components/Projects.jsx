@@ -60,11 +60,26 @@ const Projects = () => {
 
 export const project = [
     {
+        title:'ImageAuth - Transformation Based Watermarking for Image Authentication',
+        description:' A secure Image authentication system to ensure robust protection against digital forgery',
+        image: {copeople},
+        git:"https://github.com/rizaan/Transformation-based-Watermarking",
+        technologies:[ 'Python', 'Discrete Cosine Transform','Discrete Wavelet Trasform']
+    },
+    {
+        title:'Network Security Suite',
+        description:' Advanced tool for real-time system monitoring and network packet analysis in one comprehensive dashboard',
+        image: {copeople},
+        git:"https://github.com/rizaan/Network-Security-Suite",
+        technologies:[ 'Python', 'FastAPI','React.js','Next.js','Agentic AI']
+    },
+    ,
+    {
         title:'Multiple Face Detection and Recognition',
         description:' Multiple face detection and recognition system designed to address the challenges associated with identifying and tracking multiple faces in diverse environment',
         image: {copeople},
         git:"https://github.com/rizaan/Multiple-Face-Recognition",
-        technologies:[ 'Python', 'VScode','Github Desktop']
+        technologies:[ 'Python', 'VScode','Github ']
     },
     {
         title:'FLMS - Football League Management System',
@@ -74,8 +89,8 @@ export const project = [
         technologies:['Java' ,'JDBC' , 'MySQL']
     },
     {
-        title:'USB Rubber Ducky ',
-        description:'  USB Rubber Ducky’s keystroke injection capabilities through the Raspberry Pi Pico to simulate real-world scenarios.',
+        title:'USB Rubber Ducky - Hardware Security Toolkit ',
+        description:'  A stealthy HID-based hardware platform fully scriptable and configurable for varied attack scenarios.',
         image: {vpn},
         git:'https://github.com/rizaan/USB-Rubber-Ducky-',
         technologies:['Python' ,'Nmap' , 'Wireshark','Git']
